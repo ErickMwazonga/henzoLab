@@ -2,7 +2,7 @@
     width: 250px;
     height: 0px;
     border-top: 4px solid #33C3F0;
-    margin: 50px auto 50px;
+    margin: 60px auto 60px;
 }
 
 .content {
@@ -37,4 +37,42 @@
         }
     }
 
+}
+
+.contact {
+    margin: 50px auto 0px;
+    padding: 50px;
+    background: #e5eaee;
+    text-align: center;
+
+    .inner {
+        border: 2px solid #33C3F0;
+        border-radius: 5px;
+        padding: 20px;
+    }
+
+    form {
+        text-align: left;
+
+        input {
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            margin-bottom: 10px;
+        }
+    }
+
+    .contacts {
+        .icon {
+            color: #33C3F0;
+        }
+        .row .contact-spec {
+            margin-left: 10px;
+            margin-bottom: 10px;
+        }
+        hr {
+            margin: 15px 0;
+        }
+    }
 }
