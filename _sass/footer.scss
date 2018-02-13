@@ -1,0 +1,51 @@
+
+/* FOOTER STYLES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+footer {
+    padding: 30px 0;
+    border-top: 4px solid #33C3F0;
+    background: #F7F7F7;
+    margin-top: 30px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+
+    .footer {
+        display: flex;
+        justify-content: space-between;
+
+        .footer-left {
+            .footer-company {
+                line-height: 30px;
+                font-size: 30px;
+            }
+        }
+
+        .footer-center {
+            text-align: center;
+
+            a img {
+                width: 120px;
+                height: 70px;
+            }
+            p {
+                line-height: 30px;
+                font-size: 16px;
+            }
+        }
+
+        .footer-right {
+            float: right;
+
+            li {
+                text-transform: uppercase;
+                display: inline-block;
+                padding: 20px 7px 20px 0;
+                line-height: 30px;
+                width: 44px;
+            }
+        }
+    }
+
+}
