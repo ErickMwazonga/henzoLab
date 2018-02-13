@@ -2,9 +2,39 @@
     width: 250px;
     height: 0px;
     border-top: 4px solid #33C3F0;
-    margin: 0px auto 50px;
+    margin: 50px auto 50px;
 }
 
 .content {
     text-align: center;
+}
+
+.services {
+    .work {
+        a {
+            color: #666;
+            padding: 25px;
+            background: #fafafa;
+            margin-top: 20px;
+            border-radius: 4px;
+        }
+        a:hover {
+            // color: #33C3F0;
+            border-bottom: 3px solid #33C3F0;
+        }
+
+        a:hover img {
+            color: #33C3F0;
+        }
+
+        .work-icon {
+            width: 100px;
+            height: 100px;
+        }
+
+        p {
+            margin: 15px 0 0;
+        }
+    }
+
 }

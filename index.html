@@ -4,28 +4,71 @@ description: Home page.
 layout: default
 ---
 
-<div class="content">
+<div class="container content">
 
-	<div class="row">
-		<div class="text">
-			<h2 class="description">The Software Delivery Lab</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, \n
-				sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. \n
-				Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris \n
-				nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in \n
-				reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-			 </p>
+	<section class="portfolio">
+		<div class="row">
+			<div class="text">
+				<h2 class="description">The Software Delivery Lab</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+					nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+				 </p>
+			</div>
+
 		</div>
-
-	</div>
+	</section>
 
 	<hr class="bar">
 
-    <!-- Primary buttons -->
-    <a class="button button-primary" href="#">Anchor button</a>
-    <button class="button-primary">Button element</button>
-    <input class="button-primary" value="submit input" type="submit">
-    <input class="button-primary" value="button input" type="button">
+	<section class="services">
+      	<div class="row">
+        	<div class="twelve columns">
+          		<h2 class="description">Areas of Expertise</h2>
+        	</div>
+      	</div>
+      	<div class="row">
+        	<div class="one-half column work">
+          		<a href="#">
+	            	<h4>Software Development</h4>
+					<img class="work-icon" src="{{ site.baseurl }}/assets/images/work/one.png" alt="">
+	            	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	            	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				</a>
+        	</div>
+        	<div class="one-half column work">
+          		<a href="#">
+	            	<h4>Systems Consulting</h4>
+					<img class="work-icon" src="{{ site.baseurl }}/assets/images/work/two.png" alt="">
+	            	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	            	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+          		</a>
+        	</div>
+      	</div>
+		<div class="row">
+        	<div class="one-half column work">
+          		<a href="#">
+	            	<h4>Web Design</h4>
+					<img class="work-icon" src="{{ site.baseurl }}/assets/images/work/three.svg" alt="">
+	            	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	            	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+				</a>
+        	</div>
+        	<div class="one-half column work">
+          		<a href="#">
+	            	<h4>Deployment</h4>
+					<img class="work-icon" src="{{ site.baseurl }}/assets/images/work/four.svg" alt="">
+	            	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+	            	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+          		</a>
+        	</div>
+      	</div>
+    </section>
 
+	<hr class="bar">
+
+	
 </div>
