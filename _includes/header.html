@@ -12,7 +12,7 @@
                             {% if link.link == page.url %}
                                 {% assign class = class | append: " active" %}
                             {% endif %}
-                            <a href="#" class="{{ class }}">{{ link.name }}</a>
+                            <li><a href="#" class="{{ class }}">{{ link.name }}</a></li>
                         {% endfor %}
                      </ul>
                 </nav>
