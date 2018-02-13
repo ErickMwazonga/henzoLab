@@ -1,10 +1,6 @@
 ---
 ---
-@import "mixins/flexbox";
-@import "mixins/columns";
-@import "vars";
-@import "variables";
-@import "elements";
-@import "layout";
-@import "navigation";
-@import "footer";
+
+@import "general";
+// @import "navigation";
+@import "header";
