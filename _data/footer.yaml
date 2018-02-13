@@ -1,0 +1,15 @@
+left_links:
+    - name: Index
+      link: /index/
+    - name: Privacy
+      link: /privacy/
+right_links:
+    - name: Facebook
+      link: https://facebook.com/
+      fa: fab fa-facebook-square fa-3x
+    - name: Twitter
+      link: https://twitter.com/
+      fa: fab fa-twitter-square fa-3x
+    - name: Github
+      link: https://github.com/
+      fa: fab fa-github-square fa-3x

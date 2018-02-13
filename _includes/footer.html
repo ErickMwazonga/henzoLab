@@ -3,10 +3,10 @@
         <div class="twelve columns">
             <div class="footer">
                 <div class="footer-left">
-                    <a class="footer-company" href="#">henzoLab</a>
-                    <p>The Software Delivery Lab</p>
-                    <p>Nairobi, Kenya</p>
-                    <a href="#">Privacy</a>
+                    <a class="footer-company" href="#">{{ site.data.settings.title }}</a>
+                    <p>{{ site.data.settings.description }}</p>
+                    <hr>
+                    <a href="#">{{ site.data.settings.privacy }}</a>
                 </div>
 
 
@@ -22,9 +22,9 @@
 
                 <div class="footer-right">
                     <ul>
-                        <li><a href="#" title=""><i class="fab fa-facebook-square fa-3x"></i></a></li>
-                        <li><a href="#" title=""><i class="fab fa-twitter-square fa-3x"></i></a></li>
-                        <li><a href="#" title=""><i class="fab fa-github-square fa-3x"></i></a></li>
+                        {% for link in site.data.footer.right_links %}
+            				<li><a href='{{ link.link }}'><i class="{{ link.fa }}"></i></a></li>
+            			{% endfor %}
                     </ul>
                 </div>
             </div>

@@ -7,9 +7,13 @@
                         <span class="dark-logo"><img width="104" height="38" src="{{ site.baseurl }}/assets/images/logo/dark.svg" alt="dark henzoLab logo"></span>
                     </a>
                     <ul class="nav-right">
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#work">Expertise</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        {% for link in site.data.navigation %}
+                            {% assign class = "" %}
+                            {% if link.link == page.url %}
+                                {% assign class = class | append: " active" %}
+                            {% endif %}
+                            <a href="#" class="{{ class }}">{{ link.name }}</a>
+                        {% endfor %}
                      </ul>
                 </nav>
             </div>
