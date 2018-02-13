@@ -6,132 +6,14 @@ layout: default
 
 <div class="content">
 
-	<section id="about" class="about">
-		<div class="container">
-			<section class="portfolio">
-				<div class="row">
-					<div class="text">
-						<h2 class="description">The Software Delivery Lab</h2>
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-							sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-							Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-							nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-							reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-						</p>
-					</div>
-				</div>
-			</section>
-		</div>
-	</section>
+	{% include about.html %}
 
 	<hr class="bar">
 
-	<section id="work" class="work">
-		<div class="container">
-			<div class="row">
-	        	<div class="twelve columns">
-	          		<h2 class="description">Areas of Expertise</h2>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-						Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-						nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-					 </p>
-	        	</div>
-	      	</div>
-	      	<div class="row">
-	        	<div class="one-half column work">
-	          		<a href="#">
-		            	<h4>Software Development</h4>
-						<img class="work-icon" src="{{ site.baseurl }}/assets/images/work/one.png" alt="">
-		            	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		            	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-					</a>
-	        	</div>
-	        	<div class="one-half column work">
-	          		<a href="#">
-		            	<h4>Systems Consulting</h4>
-						<img class="work-icon" src="{{ site.baseurl }}/assets/images/work/two.png" alt="">
-		            	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		            	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-	          		</a>
-	        	</div>
-	      	</div>
-			<div class="row">
-	        	<div class="one-half column work">
-	          		<a href="#">
-		            	<h4>Web Design</h4>
-						<img class="work-icon" src="{{ site.baseurl }}/assets/images/work/three.svg" alt="">
-		            	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		            	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-					</a>
-	        	</div>
-	        	<div class="one-half column work">
-	          		<a href="#">
-		            	<h4>Deployment</h4>
-						<img class="work-icon" src="{{ site.baseurl }}/assets/images/work/four.svg" alt="">
-		            	<p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-		            	Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
-	          		</a>
-	        	</div>
-	      	</div>
-		</div>
-
-    </section>
+	{% include services.html %}
 
 	<hr class="bar">
 
-	<section id="contact" class="contact">
-		<div class="container">
-			<div class="twelve columns">
-				<div class="row">
-					<div class="twelve columns">
-						<h2 class="description">Contact Us</h2>
-					</div>
-					<div class="row">
-						<div class="one-half column">
-							<form>
-								<div class="twelve columns">
-									<label for="exampleEmailInput">Name</label>
-									<input class="u-full-width" placeholder="John Doe" id="name" type="email">
-								</div>
-								<div class="twelve columns">
-									<label for="exampleEmailInput">Email</label>
-									<input class="u-full-width" placeholder="johndoe@mailbox.com" id="email" type="email">
-								</div>
-								<div class="twelve columns">
-									<label for="exampleMessage">Message</label>
-									<textarea class="u-full-width" placeholder="Hi henzoLab…" id="message"></textarea>
-								</div>
-								<input class="button-primary" value="Submit" type="submit">
-							</form>
-						</div>
-						<div class="one-half column contacts">
-							<div class="row">
-								<i class="icon fas fa-phone fa-2x"></i>
-								<p class="contact-spec">+254705883334</p>
-							</div>
-							<hr>
-							<div class="row">
-								<i class="icon fas fa-envelope fa-2x"></i>
-								<p class="contact-spec">henzolab@gmail.com</p>
-							</div>
-							<hr>
-							<div class="row">
-								<i class="icon fas fa-map-marker fa-2x"></i>
-								<div class="row">
-									<p class="contact-spec">Henzo Lab</p>
-									<p class="contact-spec">Nairobi, Kenya</p>
-								</div>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</div>
-	</section>
+	{% include contact.html %}
 
 </div>
