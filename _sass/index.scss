@@ -10,6 +10,15 @@
 }
 
 .work {
+    margin-bottom: 50px;
+    padding: 0 20px;
+    text-align: center;
+    // background: red;
+
+    .columns {
+        margin-left: 0 !important;
+    }
+
     .work {
         a {
             color: #666;
