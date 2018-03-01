@@ -10,7 +10,13 @@ header {
     nav a {
         padding-top: 20px;
         height: 30px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        margin-right: 20px;
 
+    }
+    nav a:hover {
+        color: #666;
     }
 
     nav a:hover {
@@ -23,9 +29,34 @@ header {
         li {
             text-transform: uppercase;
             display: inline-block;
-            padding: 20px 7px 10px 35px;
+            padding: 20px 7px 15px 20px;
             line-height: 30px;
             font-size: 16px;
+        }
+        li:active {
+            color: #666;
+        }
+    }
+}
+
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    header {
+        text-align: center;
+
+        nav a {
+            margin-right: 5px;
+
+        }
+        .nav-right {
+            float: right;
+
+            li {
+                display: inline-block;
+                padding: 20px 3px 15px 5px;
+            }
         }
     }
 }
