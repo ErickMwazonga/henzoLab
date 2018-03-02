@@ -1,6 +1,6 @@
 - name: About
-  link: '#about'
-- name: Contact
-  link: '#contact'
+  link: '#hero'
 - name: Expertise
   link: '#work'
+- name: Contact
+  link: '#contact'

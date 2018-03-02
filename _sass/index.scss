@@ -2,7 +2,7 @@
     width: 250px;
     height: 0px;
     border-top: 4px solid #33C3F0;
-    margin: 60px auto 60px;
+    // margin: 60px auto 60px;
 }
 
 .content {
@@ -10,14 +10,13 @@
 }
 
 .work {
-    margin-bottom: 50px;
-    padding: 0 20px;
+    padding: 50px 10px 10px 10px;
     text-align: center;
-    // background: red;
 
-    .columns {
-        margin-left: 20px !important;
-        margin-right: 20px;
+    .bar {
+        width: 250px;
+        height: 0px;
+        border-top: 4px solid #33C3F0;
     }
 
     .work {
@@ -85,5 +84,23 @@
         hr {
             margin: 15px 0;
         }
+    }
+}
+
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {
+    .contact {
+        form {
+            text-align: center;
+        }
+    }
+    .work {
+        .work {
+            a {
+                cursor: pointer;
+            }
+        }
+
     }
 }
