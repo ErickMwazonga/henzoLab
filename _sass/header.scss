@@ -2,11 +2,6 @@
 /* HEADER STYLES
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 header {
-    padding-top: 10px;
-    border-bottom: 4px solid #33C3F0;
-    background: #F7F7F7;
-    margin-bottom: 30px;
-
     nav a {
         padding-top: 20px;
         height: 30px;
@@ -29,7 +24,7 @@ header {
         li {
             text-transform: uppercase;
             display: inline-block;
-            padding: 20px 7px 15px 20px;
+            padding: 20px 7px 0px 20px;
             line-height: 30px;
             font-size: 16px;
         }
@@ -38,7 +33,6 @@ header {
         }
     }
 }
-
 
 
 /* All Mobile Sizes (devices and browser) */
